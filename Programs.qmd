@@ -1,5 +1,13 @@
 ---
-title: "Programs"
-format: html
+title: "Our Programs"
 ---
 
+<div class="container">
+  # Programs
+
+  **Under Construction** – Program details will appear soon.
+</div>
+
+<footer>
+  © 2025 Cultural Health Connect
+</footer>
