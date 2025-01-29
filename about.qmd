@@ -1,5 +1,13 @@
 ---
-title: "about"
-format: html
+title: "About Us"
 ---
 
+<div class="container">
+  # About Cultural Health Connect
+
+  **Under Construction** – Check back soon for more details!
+</div>
+
+<footer>
+  © 2025 Cultural Health Connect
+</footer>

@@ -1,5 +1,25 @@
 ---
-title: "Contact"
-format: html
+title: "Contact Us"
+---
+---
+title: "Contact Us"
 ---
 
+<div class="container">
+  # Contact Us
+
+  **Under Construction**
+
+
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  -->
+</div>
+
+<footer>
+  © 2025 Cultural Health Connect
+</footer>

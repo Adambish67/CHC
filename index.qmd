@@ -1,5 +1,31 @@
 ---
-title: "index"
-format: html
+title: "Cultural Health Connect"
 ---
+<div class="hero">
+  <h1>Welcome to Cultural Health Connect</h1>
+  <p>Bridging cultural gaps in healthcare, one community at a time.</p>
+  <a href="donate.qmd" class="btn">Donate</a>
+  <a href="programs.qmd" class="btn">Our Programs</a>
+</div>
 
+<div class="container">
+  ## Our Mission
+  We aim to provide education, resources, and support to underserved communities, ensuring equitable healthcare for all.
+
+  ### What We Do
+  - **Community Workshops**: Free educational sessions on healthcare best practices.
+  - **Outreach Programs**: Partner with clinics and local organizations.
+  - **Volunteer Initiatives**: Engage passionate individuals to make a difference.
+
+  <p style="text-align: center;">
+    <img src="images/logo.png" alt="CHC Logo" width="150" />
+  </p>
+
+  ### Get Involved
+  We’d love for you to join us! <br>
+  <a href="contact.qmd" class="btn">Contact Us</a>
+</div>
+
+<footer>
+  © 2025 Cultural Health Connect – All Rights Reserved
+</footer>
