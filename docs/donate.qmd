@@ -1,0 +1,18 @@
+---
+title: "Donate"
+format: html
+---
+
+---
+title: "Donate"
+---
+
+<div class="container">
+  # Donate
+
+  **Under Construction** – Will integrate donation functionality soon.
+</div>
+
+<footer>
+  © 2025 Cultural Health Connect
+</footer>
