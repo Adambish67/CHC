@@ -2,11 +2,6 @@
 title: "Donate"
 format: html
 ---
-
----
-title: "Donate"
----
-
 <div class="container">
   # Donate
 
