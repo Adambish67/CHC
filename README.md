@@ -1,2 +1,2 @@
 # CHC
-This Repository will host the webpage for teh cultural health connect nonproift.
+This Repository will host the webpage for the Cultural Health Connect (CHC) nonprofit.
