@@ -2,22 +2,26 @@ project:
   type: website
   output-dir: docs
 
+project:
+  type: website
+  output-dir: docs
+
 website:
   title: "Cultural Health Connect"
   navbar:
-    background: "#004D40"  # Dark teal background for the navbar
-    logo: images/logo.png  # Place your logo in the images folder
+    background: "#004D40"
+    logo: images/logo.png
     left:
       - text: "Home"
-        href: index.qmd
+        href: index.html
       - text: "About"
-        href: about.qmd
+        href: about.html
       - text: "Programs"
-        href: programs.qmd
+        href: programs.html
       - text: "Contact"
-        href: contact.qmd
+        href: contact.html
       - text: "Donate"
-        href: donate.qmd
+        href: donate.html
 
 format:
   html:
