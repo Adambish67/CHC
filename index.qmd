@@ -28,10 +28,7 @@ title: "Cultural Health Connect"
     Stay tuned for our upcoming community events and workshops. We’re planning interactive sessions to empower and educate our community.
   </p>
 
-  <h2>Testimonials</h2>
-  <blockquote>
-    "Cultural Health Connect has been a beacon of hope and information for our community." – Community Member
-  </blockquote>
+ #<h2>Testimonials</h2> <blockquote>"Cultural Health Connect has been a beacon of hope and information for our community." – Community Member /blockquote>
 
   <h2>Get Involved</h2>
   <p>
