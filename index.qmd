@@ -1,6 +1,8 @@
 ---
 title: "Cultural Health Connect"
 ---
+
+
 <div class="hero">
   <h1>Welcome to Cultural Health Connect</h1>
   <p>Bridging cultural gaps in healthcare, one community at a time.</p>
@@ -9,21 +11,38 @@ title: "Cultural Health Connect"
 </div>
 
 <div class="container">
-  ## Our Mission
-  We aim to provide education, resources, and support to underserved communities, ensuring equitable healthcare for all.
-
-  ### What We Do
-  - **Community Workshops**: Free educational sessions on healthcare best practices.
-  - **Outreach Programs**: Partner with clinics and local organizations.
-  - **Volunteer Initiatives**: Engage passionate individuals to make a difference.
-
-  <p style="text-align: center;">
-    <img src="images/logo.png" alt="CHC Logo" width="150" />
+  <h2>Our Mission</h2>
+  <p>
+    We provide culturally relevant health and lifestyle education, resources, and support to underserved communities in East County San Diego, with a special focus on Middle Eastern and Mexican populations in El Cajon, California.
   </p>
 
-  ### Get Involved
-  We’d love for you to join us! <br>
+  <h2>What We Do</h2>
+  <ul>
+    <li><strong>Community Workshops:</strong> Free sessions on health and wellness.</li>
+    <li><strong>Outreach Programs:</strong> Collaborations with local clinics and organizations.</li>
+    <li><strong>Volunteer Initiatives:</strong> Opportunities to make a difference in your community.</li>
+  </ul>
+
+  <h2>Upcoming Events</h2>
+  <p>
+    Stay tuned for our upcoming community events and workshops. We’re planning interactive sessions to empower and educate our community.
+  </p>
+
+  <h2>Testimonials</h2>
+  <blockquote>
+    "Cultural Health Connect has been a beacon of hope and information for our community." – Community Member
+  </blockquote>
+
+  <h2>Get Involved</h2>
+  <p>
+    Whether you’re interested in volunteering, attending events, or supporting us through donations, your involvement makes a difference.
+  </p>
   <a href="contact.qmd" class="btn">Contact Us</a>
+
+  <p style="text-align: center;">
+    <!-- Replace with your actual logo or another image -->
+    <img src="images/logo.png" alt="Cultural Health Connect Logo" width="150" />
+  </p>
 </div>
 
 <footer>

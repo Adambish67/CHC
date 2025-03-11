@@ -7,7 +7,7 @@ body {
   color: #333;
 }
 
-/* Simple Container */
+/* Container */
 .container {
   max-width: 800px;
   margin: auto;
@@ -15,7 +15,7 @@ body {
   background: #fff;
 }
 
-/* Header (if you want a hero section on homepage) */
+/* Hero Section */
 .hero {
   background: url("images/hero-image.jpg") no-repeat center center;
   background-size: cover;
@@ -33,7 +33,7 @@ body {
   font-size: 1.2rem;
 }
 
-/* Buttons */
+/* Navbar and Buttons */
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -48,6 +48,23 @@ body {
   background: #00564C;
 }
 
+/* Form Styles */
+form {
+  margin: 1rem 0;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form label {
+  font-weight: bold;
+}
+
 /* Footer */
 footer {
   background: #004D40;
@@ -55,4 +72,18 @@ footer {
   text-align: center;
   padding: 1rem 0;
   margin-top: 2rem;
+}
+
+/* Additional Sections (e.g., Testimonials, Upcoming Events) */
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #00796B;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
 }
