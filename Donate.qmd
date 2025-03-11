@@ -2,7 +2,10 @@
 title: "Donate"
 format: html
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6a173441069c9746bbc9c32e2ab9f550ce517eba
 <div class="container">
   <h1>Donate</h1>
   <p>
