@@ -9,15 +9,15 @@ website:
     logo: images/logo.png
     left:
       - text: "Home"
-        href: index.html
+        href: Index.html
       - text: "About"
-        href: about.html
+        href: About.html
       - text: "Programs"
-        href: programs.html
+        href: Programs.html
       - text: "Contact"
-        href: contact.html
+        href: Contact.html
       - text: "Donate"
-        href: donate.html
+        href: Donate.html
 
 format:
   html:
