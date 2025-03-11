@@ -3,9 +3,27 @@ title: "Our Programs"
 ---
 
 <div class="container">
-  # Programs
-
-  **Under Construction** – Program details will appear soon.
+  <h1>Our Programs</h1>
+  
+  <h2>Community Workshops</h2>
+  <p>
+    Join our free educational sessions covering topics from nutrition and lifestyle modifications to chronic disease management, all designed with cultural sensitivity in mind.
+  </p>
+  
+  <h2>Outreach Initiatives</h2>
+  <p>
+    We partner with local clinics, cultural organizations, and community leaders to deliver accessible health resources and education tailored to our community’s needs.
+  </p>
+  
+  <h2>Volunteer Opportunities</h2>
+  <p>
+    Get involved with our dynamic team. Whether you’re passionate about community service or healthcare, there are many ways to help.
+  </p>
+  
+  <h2>Upcoming Events</h2>
+  <p>
+    Stay updated on our upcoming events including health fairs, cultural community gatherings, and interactive workshops.
+  </p>
 </div>
 
 <footer>

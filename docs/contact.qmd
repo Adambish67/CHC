@@ -1,23 +1,29 @@
 ---
 title: "Contact Us"
 ---
----
-title: "Contact Us"
----
-
 <div class="container">
-  # Contact Us
-
-  **Under Construction**
-
-
-  <form action="https://formspree.io/f/your-form-id" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
+  <h1>Contact Us</h1>
+  <p>
+    We’d love to hear from you! Whether you have questions about our programs, want to volunteer, or just share your feedback, please fill out the form below.
+  </p>
+  
+  <form action="mailto:abisharat@culturalhealthconnect.org" method="post" enctype="text/plain">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+    
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+    
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea><br><br>
+    
+    <button type="submit" class="btn">Send Message</button>
   </form>
-  -->
+  
+  <p>
+    If you experience any issues with the form, please email us directly at 
+    <a href="mailto:abisharat@culturalhealthconnect.org">abisharat@culturalhealthconnect.org</a>.
+  </p>
 </div>
 
 <footer>

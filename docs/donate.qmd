@@ -2,17 +2,22 @@
 title: "Donate"
 format: html
 ---
+<<<<<<< HEAD
 
----
-title: "Donate"
----
-
+=======
+>>>>>>> 6a173441069c9746bbc9c32e2ab9f550ce517eba
 <div class="container">
-  # Donate
-
-  **Under Construction** – Will integrate donation functionality soon.
+  <h1>Donate</h1>
+  <p>
+    Your support makes a big difference in our community. We are in the process of integrating a secure online donation platform. Please check back soon for the ability to donate online.
+  </p>
+  <p>
+    In the meantime, if you’d like to contribute or have questions about other ways to donate, please contact us at 
+    <a href="mailto:abisharat@culturalhealthconnect.org">abisharat@culturalhealthconnect.org</a>.
+  </p>
 </div>
 
 <footer>
   © 2025 Cultural Health Connect
 </footer>
+
