@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f3f9bc98c5c5442fd48227de55bd35d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -145,53 +145,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<!-- HERO SECTION -->
 <div class="hero">
+<img src="images/logo.png" alt="Cultural Health Connect Logo" style="width: 140px; border-radius: 50px; background: #fff; padding: 8px; margin-bottom: 18px;">
 <h1>
-Welcome to Cultural Health Connect
+Cultural Health Connect
 </h1>
-<p>
-Bridging cultural gaps in healthcare, one community at a time.
+<p class="hero-lead" style="font-size:1.3em;">
+Empowering healthier lives in East County San Diego—where culture meets clinical knowledge.
 </p>
-<p><a href="donate.qmd" class="btn">Donate</a> <a href="programs.qmd" class="btn">Our Programs</a></p>
 </div>
-<div class="container">
-<h2 class="anchored">
-Our Mission
-</h2>
+<!-- MISSION SECTION -->
+<div class="container" style="margin-top: 2rem;">
 <p>
-We provide culturally relevant health and lifestyle education, resources, and support to underserved communities in East County San Diego, with a special focus on Middle Eastern and Mexican populations in El Cajon, California.
+At Cultural Health Connect, our mission is to deliver the most up-to-date, evidence-based guidance on managing chronic disease through diet and lifestyle—tailored specifically to the Middle Eastern and Mexican communities of El Cajon. We believe in the power of moderation rather than elimination, working alongside our community to find practical, sustainable health solutions that honor and respect cherished cultural traditions—especially those centered on food.
 </p>
-<h2 class="anchored">
-What We Do
-</h2>
-<ul>
-<li>
-<strong>Community Workshops:</strong> Free sessions on health and wellness.
-</li>
-<li>
-<strong>Outreach Programs:</strong> Collaborations with local clinics and organizations.
-</li>
-<li>
-<strong>Volunteer Initiatives:</strong> Opportunities to make a difference in your community.
-</li>
-</ul>
-<h2 class="anchored">
-Upcoming Events
-</h2>
-<p>
-Stay tuned for our upcoming community events and workshops. We’re planning interactive sessions to empower and educate our community.
-</p>
-<h2 class="anchored">
-Get Involved
-</h2>
-<p>
-Whether you’re interested in volunteering, attending events, or supporting us through donations, your involvement makes a difference.
-</p>
-<p><a href="contact.qmd" class="btn">Contact Us</a></p>
-<p style="text-align: center;">
-<!-- Replace with your actual logo or another image -->
-<img src="images/logo.png" alt="Cultural Health Connect Logo" width="150">
-</p>
+<div style="text-align:center; margin-top:2rem;">
+<pre><code>&lt;a href="about.html" class="btn"&gt;Learn More&lt;/a&gt;
+&lt;a href="programs.html" class="btn"&gt;Our Programs&lt;/a&gt;
+&lt;a href="contact.html" class="btn"&gt;Contact Us&lt;/a&gt;
+&lt;a href="donate.html" class="btn"&gt;Donate&lt;/a&gt;</code></pre>
+</div>
 </div>
 <footer>
 © 2025 Cultural Health Connect – All Rights Reserved
@@ -282,8 +256,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -394,7 +366,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

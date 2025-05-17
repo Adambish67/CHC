@@ -1,44 +1,24 @@
 ---
 title: "Cultural Health Connect"
 ---
-
-
+<!-- HERO SECTION -->
 <div class="hero">
-  <h1>Welcome to Cultural Health Connect</h1>
-  <p>Bridging cultural gaps in healthcare, one community at a time.</p>
-  <a href="donate.qmd" class="btn">Donate</a>
-  <a href="programs.qmd" class="btn">Our Programs</a>
+  <img src="images/logo.png" alt="Cultural Health Connect Logo" style="width: 140px; border-radius: 50px; background: #fff; padding: 8px; margin-bottom: 18px;">
+  <h1>Cultural Health Connect</h1>
+  <p class="hero-lead" style="font-size:1.3em;">Empowering healthier lives in East County San Diego—where culture meets clinical knowledge.</p>
 </div>
 
-<div class="container">
-  <h2>Our Mission</h2>
+<!-- MISSION SECTION -->
+<div class="container" style="margin-top: 2rem;">
   <p>
-    We provide culturally relevant health and lifestyle education, resources, and support to underserved communities in East County San Diego, with a special focus on Middle Eastern and Mexican populations in El Cajon, California.
+    At Cultural Health Connect, our mission is to deliver the most up-to-date, evidence-based guidance on managing chronic disease through diet and lifestyle—tailored specifically to the Middle Eastern and Mexican communities of El Cajon. We believe in the power of moderation rather than elimination, working alongside our community to find practical, sustainable health solutions that honor and respect cherished cultural traditions—especially those centered on food.
   </p>
-
-  <h2>What We Do</h2>
-  <ul>
-    <li><strong>Community Workshops:</strong> Free sessions on health and wellness.</li>
-    <li><strong>Outreach Programs:</strong> Collaborations with local clinics and organizations.</li>
-    <li><strong>Volunteer Initiatives:</strong> Opportunities to make a difference in your community.</li>
-  </ul>
-
-  <h2>Upcoming Events</h2>
-  <p>
-    Stay tuned for our upcoming community events and workshops. We’re planning interactive sessions to empower and educate our community.
-  </p>
-
-
-  <h2>Get Involved</h2>
-  <p>
-    Whether you’re interested in volunteering, attending events, or supporting us through donations, your involvement makes a difference.
-  </p>
-  <a href="contact.qmd" class="btn">Contact Us</a>
-
-  <p style="text-align: center;">
-    <!-- Replace with your actual logo or another image -->
-    <img src="images/logo.png" alt="Cultural Health Connect Logo" width="150" />
-  </p>
+  <div style="text-align:center; margin-top:2rem;">
+    <a href="about.html" class="btn">Learn More</a>
+    <a href="programs.html" class="btn">Our Programs</a>
+    <a href="contact.html" class="btn">Contact Us</a>
+    <a href="donate.html" class="btn">Donate</a>
+  </div>
 </div>
 
 <footer>
