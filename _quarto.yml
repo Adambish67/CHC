@@ -9,9 +9,9 @@ website:
     logo: images/logo.png
     left:
       - text: "Home"
-        href: Index.html
+        href: index.html
       - text: "About"
-        href: About.html
+        href: about.html
       - text: "Programs"
         href: Programs.html
       - text: "Contact"
