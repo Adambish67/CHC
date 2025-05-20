@@ -1,6 +1,3 @@
----
-title: "About Us"
----
 <div class="container">
   <h1>About Cultural Health Connect</h1>
   <p>

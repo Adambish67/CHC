@@ -1,6 +1,7 @@
 <!-- HERO SECTION -->
 <div class="hero">
-  <img src="Images/CHClogo.png" alt="Cultural Health Connect Logo" style="width: 300px; border-radius: 50px; background: #fff; padding: 8px; margin-bottom: 18px;">
+  <img src="Images/CHClogo.png" alt="Cultural Health Connect Logo" style="width: 5
+500px; border-radius: 50px; background: #fff; padding: 8px; margin-bottom: 18px;">
 <p class="hero-lead" style="font-size:1.3em; color:#111;">
   Empowering healthier lives in East County San Diego—where culture meets clinical knowledge.
 </p>
