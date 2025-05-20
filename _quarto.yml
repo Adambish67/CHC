@@ -5,7 +5,7 @@ project:
 website:
   title: "Cultural Health Connect"
   navbar:
-    background: "#004D40"
+    background: "#103d79"
     logo: Images/CHChug.png
     left:
       - text: "Home"
