@@ -12,7 +12,7 @@ format: html
   </p>
   <p>
     In the meantime, if you’d like to contribute or have questions about other ways to donate, please contact us at 
-    <a href="mailto:abisharat@culturalhealthconnect.org">abisharat@culturalhealthconnect.org</a>.
+    <a href="mailto:donate@culturalhealthconnect.org">donate@culturalhealthconnect.org</a>.
   </p>
 </div>
 

@@ -19,7 +19,7 @@
   
   <p>
     If you experience any issues with the form, please email us directly at 
-    <a href="mailto:abisharat@culturalhealthconnect.org">abisharat@culturalhealthconnect.org</a>.
+    <a href="mailto:helpt@culturalhealthconnect.org">help@culturalhealthconnect.org</a>.
   </p>
 </div>
 
