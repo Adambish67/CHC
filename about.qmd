@@ -5,10 +5,21 @@
     Cultural Health Connect was founded with the aim of bridging cultural gaps in healthcare. We are dedicated to providing culturally relevant health and lifestyle education to immigrant communities in East County San Diego. Our mission is to empower community members by integrating traditional cultural values with modern healthcare practices.
   </p>
 
-  <h2>Our Founders</h2>
-  <p>
-    Details about our founders and their inspiring journeys will be shared soon. Stay tuned as we introduce the passionate individuals behind Cultural Health Connect.
-  </p>
+<h2>Our Founders</h2>
+<div class="founder-profile">
+  <img src="Images/founder1.jpg" alt="Founder 1">
+  <p>Placeholder text about Founder 1. This paragraph will highlight their background, expertise and the passion they bring to Cultural Health Connect.</p>
+</div>
+
+<div class="founder-profile">
+  <img src="Images/founder2.jpg" alt="Founder 2">
+  <p>Placeholder text about Founder 2. Share an overview of their journey and what inspires them to serve the community through CHC.</p>
+</div>
+
+<div class="founder-profile">
+  <img src="Images/founder3.jpg" alt="Founder 3">
+  <p>Placeholder text about Founder 3. A short biography here will showcase their role and vision for the organization.</p>
+</div>
 </div>
 
 <footer>
