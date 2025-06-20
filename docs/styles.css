@@ -87,3 +87,24 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Founder Profile Styles */
+.founder-profile {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.founder-profile:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.founder-profile img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.founder-profile p {
+  flex: 1;
+}
