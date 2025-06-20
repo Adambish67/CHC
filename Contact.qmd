@@ -4,7 +4,10 @@
     We’d love to hear from you! Whether you have questions about our programs, want to volunteer, or just share your feedback, please fill out the form below.
   </p>
   
+
+
   <form action="https://formspree.io/f/mldnwdod" method="POST">
+
     <label for="name">Your Name:</label><br>
     <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
     
@@ -19,7 +22,7 @@
   
   <p>
     If you experience any issues with the form, please email us directly at 
-    <a href="mailto:helpt@culturalhealthconnect.org">help@culturalhealthconnect.org</a>.
+    <a href="mailto:help@culturalhealthconnect.org">help@culturalhealthconnect.org</a>.
   </p>
 </div>
 
