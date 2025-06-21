@@ -10,7 +10,7 @@ website:
     logo: Images/CHChug.png
     left:
       - text: "Home"
-        href: Index.html
+        href: index.html
       - text: "About"
         href: about.html
       #- text: "Programs"
