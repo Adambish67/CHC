@@ -25,7 +25,7 @@
     "href": "Contact.html",
     "title": "\nContact Us\n",
     "section": "",
-    "text": "We’d love to hear from you! Whether you have questions about our programs, want to volunteer, or just share your feedback, please fill out the form below.\n\n\n&lt;label for=\"name\"&gt;Your Name:&lt;/label&gt;&lt;br&gt;\n&lt;input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Your Name\" required&gt;&lt;br&gt;&lt;br&gt;\n\n&lt;label for=\"email\"&gt;Your Email:&lt;/label&gt;&lt;br&gt;\n&lt;input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Your Email\" required&gt;&lt;br&gt;&lt;br&gt;\n\n&lt;label for=\"message\"&gt;Your Message:&lt;/label&gt;&lt;br&gt;\n&lt;textarea id=\"message\" name=\"message\" placeholder=\"Your Message\" rows=\"5\" required&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;\n\n&lt;button type=\"submit\" class=\"btn\"&gt;Send Message&lt;/button&gt;\n\n\nIf you experience any issues with the form, please email us directly at help@culturalhealthconnect.org.\n\n\n\n© 2025 Cultural Health Connect"
+    "text": "We’d love to hear from you! Whether you have questions about our programs, want to volunteer, or just share your feedback, please fill out the form below.\n\n\n\nYour Name: \nYour Email: \nYour Message:\n\n\n\nSend Message\n\n\n\nIf you experience any issues with the form, please email us directly at help@culturalhealthconnect.org.\n\n\n\n© 2025 Cultural Health Connect"
   },
   {
     "objectID": "About.html",
