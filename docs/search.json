@@ -4,7 +4,7 @@
     "href": "Donate.html",
     "title": "Donate",
     "section": "",
-    "text": "=======\n\n\nDonate\n\n\nYour support makes a big difference in our community. We are in the process of integrating a secure online donation platform. Please check back soon for the ability to donate online.\n\n\nIn the meantime, if you’d like to contribute or have questions about other ways to donate, please contact us at abisharat@culturalhealthconnect.org.\n\n\n\n© 2025 Cultural Health Connect"
+    "text": "=======\n\n\nDonate\n\n\nYour support makes a big difference in our community. We are in the process of integrating a secure online donation platform. Please check back soon for the ability to donate online.\n\n\nIn the meantime, if you’d like to contribute or have questions about other ways to donate, please contact us at donate@culturalhealthconnect.org.\n\n\n\n© 2025 Cultural Health Connect"
   },
   {
     "objectID": "Index.html",
@@ -25,7 +25,7 @@
     "href": "Contact.html",
     "title": "\nContact Us\n",
     "section": "",
-    "text": "We’d love to hear from you! Whether you have questions about our programs, want to volunteer, or just share your feedback, please fill out the form below.\n\n\nYour Name: \nYour Email: \nYour Message:\n\n\n\nSend Message\n\n\n\nIf you experience any issues with the form, please email us directly at abisharat@culturalhealthconnect.org.\n\n\n\n© 2025 Cultural Health Connect"
+    "text": "We’d love to hear from you! Whether you have questions about our programs, want to volunteer, or just share your feedback, please fill out the form below.\n\n\n&lt;label for=\"name\"&gt;Your Name:&lt;/label&gt;&lt;br&gt;\n&lt;input type=\"text\" id=\"name\" name=\"name\" placeholder=\"Your Name\" required&gt;&lt;br&gt;&lt;br&gt;\n\n&lt;label for=\"email\"&gt;Your Email:&lt;/label&gt;&lt;br&gt;\n&lt;input type=\"email\" id=\"email\" name=\"email\" placeholder=\"Your Email\" required&gt;&lt;br&gt;&lt;br&gt;\n\n&lt;label for=\"message\"&gt;Your Message:&lt;/label&gt;&lt;br&gt;\n&lt;textarea id=\"message\" name=\"message\" placeholder=\"Your Message\" rows=\"5\" required&gt;&lt;/textarea&gt;&lt;br&gt;&lt;br&gt;\n\n&lt;button type=\"submit\" class=\"btn\"&gt;Send Message&lt;/button&gt;\n\n\nIf you experience any issues with the form, please email us directly at help@culturalhealthconnect.org.\n\n\n\n© 2025 Cultural Health Connect"
   },
   {
     "objectID": "About.html",
@@ -33,5 +33,12 @@
     "title": "\nAbout Cultural Health Connect\n",
     "section": "",
     "text": "Cultural Health Connect was founded with the aim of bridging cultural gaps in healthcare. We are dedicated to providing culturally relevant health and lifestyle education to immigrant communities in East County San Diego. Our mission is to empower community members by integrating traditional cultural values with modern healthcare practices.\n\n\nOur Founders\n\n\nDetails about our founders and their inspiring journeys will be shared soon. Stay tuned as we introduce the passionate individuals behind Cultural Health Connect.\n\n\n\n© 2025 Cultural Health Connect"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Cultural Health Connect",
+    "section": "",
+    "text": "Empowering healthier lives in East County San Diego—where culture meets clinical knowledge.\n\n\n\n\n\nAt Cultural Health Connect, our mission is to deliver the most up-to-date, evidence-based guidance on managing chronic disease through diet and lifestyle—tailored specifically to the Middle Eastern and Mexican communities of El Cajon. We believe in the power of moderation rather than elimination, working alongside our community to find practical, sustainable health solutions that honor and respect cherished cultural traditions—especially those centered on food.\n\n\nLearn More  Contact Us Donate\n\n\n© 2025 Cultural Health Connect – All Rights Reserved"
   }
 ]
