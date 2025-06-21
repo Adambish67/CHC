@@ -16,9 +16,9 @@ website:
       #- text: "Programs"
         #href: Programs.html
       - text: "Contact"
-        href: contact.html
+        href: Contact.html
       - text: "Donate"
-        href: donate.html
+        href: Donate.html
 
 format:
   html:
