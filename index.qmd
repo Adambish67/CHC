@@ -1,11 +1,9 @@
 <!-- HERO SECTION -->
 <div class="hero">
-  <img src="Images/CHClogo.png" alt="Cultural Health Connect Logo" style="width: 5
-500px; border-radius: 50px; background: #fff; padding: 8px; margin-bottom: 18px;">
-<p class="hero-lead" style="font-size:1.3em; color:#111;">
-  Empowering healthier lives in East County San Diego—where culture meets clinical knowledge.
-</p>
-
+  <img src="Images/CHClogo.png" alt="Cultural Health Connect Logo" style="width: 500px; border-radius: 50px; background: #fff; padding: 8px; margin-bottom: 18px;">
+  <p class="hero-lead" style="font-size:1.3em; color:#111;">
+    Empowering healthier lives in East County San Diego—where culture meets clinical knowledge.
+  </p>
 </div>
 
 <!-- MISSION SECTION -->
@@ -13,13 +11,13 @@
   <p>
     At Cultural Health Connect, our mission is to deliver the most up-to-date, evidence-based guidance on managing chronic disease through diet and lifestyle—tailored specifically to the Middle Eastern and Mexican communities of El Cajon. We believe in the power of moderation rather than elimination, working alongside our community to find practical, sustainable health solutions that honor and respect cherished cultural traditions—especially those centered on food.
   </p>
-  <div style="text-align:center; margin-top:2rem;">
+<p style="text-align:center; margin-top:2rem;">
 <a href="about.html" class="btn">Learn More</a>
-<!-- <a href="Programs.html" class="btn">Our Programs</a> -->
 <a href="Contact.html" class="btn">Contact Us</a>
 <a href="Donate.html" class="btn">Donate</a>
-</div>
+</p>
 
-<footer>
-  © 2025 Cultural Health Connect – All Rights Reserved
-</footer>
+  <footer>
+    © 2025 Cultural Health Connect – All Rights Reserved
+  </footer>
+</div>

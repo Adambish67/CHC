@@ -6,10 +6,11 @@ website:
   title: "Cultural Health Connect"
   navbar:
     background: "#103d79"
+    foreground: "#ffffff"
     logo: Images/CHChug.png
     left:
       - text: "Home"
-        href: index.html
+        href: Index.html
       - text: "About"
         href: about.html
       #- text: "Programs"
