@@ -12,7 +12,7 @@ Join us in making health education more inclusive, compassionate, and impactful 
 </p>
 
 <p style="margin-top: 2rem;">
-<a href="contact.html" class="btn">Become a Volunteer</a>
-<a href="contact.html" class="btn">Reach Out</a>
+<a href="Contact.html" class="btn">Become a Volunteer</a>
+<a href="Contact.html" class="btn">Reach Out</a>
 </p>
 </div>
