@@ -1,4 +1,3 @@
-/* General Page Styles */
 body {
   font-family: "Open Sans", Arial, sans-serif;
   margin: 0;
@@ -107,4 +106,42 @@ img {
 
 .founder-profile p {
   flex: 1;
+}
+
+/* Additional Styles for Cultural Health Connect */
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  color: #103d79; /* Matches .btn background */
+  border-bottom: 2px solid #458d75; /* Matches blockquote border */
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.practice-card {
+  background: #fff; /* Matches body/container background */
+  padding: 1rem;
+  border: 1px solid #ccc; /* Matches form input border */
+  border-radius: 4px; /* Matches .btn and form inputs */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.practice-card h3 {
+  color: #103d79; /* Matches .btn background */
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
 }
