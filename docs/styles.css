@@ -119,7 +119,6 @@ img {
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
-
 .practice-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -144,4 +143,9 @@ img {
   .practice-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Make certain cards span full width safely */
+.wide-card {
+  grid-column: 1 / -1;
 }
