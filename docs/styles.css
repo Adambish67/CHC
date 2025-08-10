@@ -146,10 +146,6 @@ img {
 }
 
 /* Make certain cards span full width safely */
-.wide-card {
-  grid-column: 1 / -1;
-}
-
 .practice-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
 .practice-grid > .wide-card { grid-column: 1 / -1 !important; }
 
