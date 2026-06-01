@@ -17,6 +17,8 @@ website:
         #href: Programs.html
       - text: "Contact"
         href: Contact.html
+      - text: "Resources"
+        href: Resources.html
       - text: "Donate"
         href: Donate.html
 
@@ -25,3 +27,5 @@ format:
     theme: default
     css: styles.css
     toc: false
+    include-after-body:
+      text: "<script src='translations.js'></script><script src='i18n.js'></script>"
