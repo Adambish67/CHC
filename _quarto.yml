@@ -4,6 +4,16 @@ project:
 
 website:
   title: "Cultural Health Connect"
+  description: "Empowering healthier lives in East County San Diego through culturally tailored health education for Middle Eastern and Mexican communities."
+  favicon: Images/CHChug.png
+  open-graph:
+    title: "Cultural Health Connect"
+    description: "Empowering healthier lives in East County San Diego through culturally tailored health education for Middle Eastern and Mexican communities."
+    image: Images/CHClogo.png
+  twitter-card:
+    title: "Cultural Health Connect"
+    description: "Empowering healthier lives in East County San Diego through culturally tailored health education."
+    image: Images/CHClogo.png
   navbar:
     background: "#103d79"
     foreground: "#ffffff"
