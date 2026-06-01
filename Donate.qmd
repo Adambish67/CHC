@@ -1,3 +1,4 @@
+```{=html}
 <!-- PAGE HEADER -->
 <div class="page-header">
   <h1>Support Our Mission</h1>
@@ -10,10 +11,10 @@
   <p>
     Cultural Health Connect thrives on community energy—whether you're a local resident who wants to volunteer, a healthcare professional ready to lend your expertise, or someone across the country who shares our mission of culturally relevant care, there's a place for you here.
   </p>
-  <p style="font-weight: 700; color:#103d79; font-size:1.05rem; margin-top:1.5rem;">
+  <p style="font-weight:700; color:#103d79; font-size:1.05rem; margin-top:1.5rem;">
     Join us in making health education more inclusive, compassionate, and impactful—right here in San Diego and beyond.
   </p>
-  <p style="margin-top: 2rem;">
+  <p style="margin-top:2rem;">
     <a href="Contact.html" class="btn">Become a Volunteer</a>
     &nbsp;
     <a href="Contact.html" class="btn">Reach Out</a>
@@ -23,3 +24,4 @@
 <footer>
   © 2025 Cultural Health Connect
 </footer>
+```

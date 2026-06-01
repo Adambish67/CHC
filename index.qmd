@@ -1,3 +1,4 @@
+```{=html}
 <!-- NOTICE BANNER -->
 <div class="notice-banner">
   <strong>Notice:</strong> The CHC webpage is currently undergoing a major overhaul and expansion. Resources and functionality will be limited until completion. Thank you for your patience.
@@ -18,25 +19,19 @@
 
 <!-- MISSION BANNER -->
 <div class="mission-banner">
-  <p>
-    At Cultural Health Connect, our mission is to deliver the most up-to-date, evidence-based guidance on managing chronic disease through diet and lifestyle—tailored specifically to the Middle Eastern and Mexican communities of El Cajon. We believe in the power of moderation rather than elimination, working alongside our community to find practical, sustainable health solutions that honor cherished cultural traditions.
-  </p>
+  <p>At Cultural Health Connect, our mission is to deliver the most up-to-date, evidence-based guidance on managing chronic disease through diet and lifestyle—tailored specifically to the Middle Eastern and Mexican communities of El Cajon. We believe in the power of moderation rather than elimination, working alongside our community to find practical, sustainable health solutions that honor cherished cultural traditions.</p>
 </div>
 
 <!-- CHRONIC DISEASE SECTION -->
 <div class="container section">
   <h2 class="section-heading">Managing Chronic Diseases with Cultural Sensitivity</h2>
-  <p>
-    Chronic diseases such as type 2 diabetes, hypertension, and heart disease disproportionately affect immigrant communities, including Middle Eastern and Latin American populations in El Cajon. A 2025 systematic review published in <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11751812/" target="_blank"><em>BMJ Open</em></a> found that Middle Eastern immigrants in high-income countries face significantly higher rates of type 2 diabetes due to cultural, linguistic, and systemic barriers to prevention and care. Similarly, a 2022 review in <a href="https://assets.cureus.com/uploads/review_article/pdf/71809/20240724-319105-5k3z9t.pdf" target="_blank"><em>Cureus</em></a> highlighted that Hispanic populations in the U.S. experience higher rates of type 2 diabetes and its complications due to socioeconomic disparities, limited healthcare access, and cultural perceptions of illness. At Cultural Health Connect, we work to address these challenges by providing linguistically and culturally tailored education that leverages community values to promote evidence-based prevention and chronic disease management.
-  </p>
+  <p>Chronic diseases such as type 2 diabetes, hypertension, and heart disease disproportionately affect immigrant communities, including Middle Eastern and Latin American populations in El Cajon. A 2025 systematic review published in <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11751812/" target="_blank"><em>BMJ Open</em></a> found that Middle Eastern immigrants in high-income countries face significantly higher rates of type 2 diabetes due to cultural, linguistic, and systemic barriers to prevention and care. Similarly, a 2022 review in <a href="https://assets.cureus.com/uploads/review_article/pdf/71809/20240724-319105-5k3z9t.pdf" target="_blank"><em>Cureus</em></a> highlighted that Hispanic populations in the U.S. experience higher rates of type 2 diabetes and its complications due to socioeconomic disparities, limited healthcare access, and cultural perceptions of illness. At Cultural Health Connect, we work to address these challenges by providing linguistically and culturally tailored education that leverages community values to promote evidence-based prevention and chronic disease management.</p>
 </div>
 
 <!-- DIETARY PRACTICES SECTION -->
 <div class="container section">
   <h2 class="section-heading">Culturally Tailored Dietary Practices</h2>
-  <p>
-    At Cultural Health Connect, we emphasize moderation over elimination and honor cultural traditions while promoting sustainable changes. Food is deeply tied to identity—especially in Middle Eastern and Latin American communities, where meals are central to family, tradition, and connection. Rather than asking individuals to give up beloved dishes like biryani or tamales, we collaborate with community members to adapt recipes in ways that support blood sugar management through adjusted portion sizes, small ingredient swaps, and fiber-rich sides.
-  </p>
+  <p>At Cultural Health Connect, we emphasize moderation over elimination and honor cultural traditions while promoting sustainable changes. Food is deeply tied to identity—especially in Middle Eastern and Latin American communities, where meals are central to family, tradition, and connection. Rather than asking individuals to give up beloved dishes like biryani or tamales, we collaborate with community members to adapt recipes in ways that support blood sugar management through adjusted portion sizes, small ingredient swaps, and fiber-rich sides.</p>
   <div class="practice-grid">
     <div class="practice-card">
       <h3>Balanced Portions</h3>
@@ -58,12 +53,10 @@
 <!-- PHYSICAL ACTIVITY SECTION -->
 <div class="container section">
   <h2 class="section-heading">Physical Activity for Health</h2>
-  <p>
-    Physical activity helps manage type 2 diabetes, high blood pressure, and weight. Resistance training—including walking uphill, taking stairs, lifting weights, or bodyweight exercises—builds muscle that acts like a sponge for blood sugar. The more muscle you have, the better your body uses insulin. You don't need a gym; simple movements done regularly at home or outside can make a big difference.
-  </p>
+  <p>Physical activity helps manage type 2 diabetes, high blood pressure, and weight. Resistance training—including walking uphill, taking stairs, lifting weights, or bodyweight exercises—builds muscle that acts like a sponge for blood sugar. The more muscle you have, the better your body uses insulin. You don't need a gym; simple movements done regularly at home or outside can make a big difference.</p>
   <div class="practice-grid">
     <div class="practice-card">
-      <h3>Stairs, Hills & Bodyweight Exercise</h3>
+      <h3>Stairs, Hills &amp; Bodyweight Exercise</h3>
       <p>Walking uphill, taking stairs, or doing squats and push-ups helps lower blood sugar and build muscle. Just a few minutes after meals or a short routine at home can make a big difference—no gym needed (<a href="https://doi.org/10.3390/muscles2020018" target="_blank">Honda et al., 2023</a>).</p>
     </div>
     <div class="practice-card">
@@ -73,7 +66,7 @@
     <div class="practice-card wide-card">
       <h3>Build Muscle with Resistance Training</h3>
       <p>Building and keeping muscle is one of the best ways to stay healthy and live longer. Research shows that people who do resistance training have a 10–17% lower risk of heart disease, diabetes, cancer, and early death (<a href="https://www.ahajournals.org/doi/10.1161/CIR.0000000000001189" target="_blank">Circulation, 2023</a>).</p>
-      <p>Just <strong>30–60 minutes per week</strong> provides most of these benefits—stronger muscles, better blood sugar control, improved bone health, and sharper thinking (<a href="https://journals.lww.com/acsm-esm/fulltext/2023/01000/the_health_benefits_of_resistance_exercise__beyond.2.aspx" target="_blank">Exercise, Sport & Movement, 2022</a>).</p>
+      <p>Just <strong>30–60 minutes per week</strong> provides most of these benefits—stronger muscles, better blood sugar control, improved bone health, and sharper thinking (<a href="https://journals.lww.com/acsm-esm/fulltext/2023/01000/the_health_benefits_of_resistance_exercise__beyond.2.aspx" target="_blank">Exercise, Sport &amp; Movement, 2022</a>).</p>
       <p><strong>No gym? No problem.</strong> Use bodyweight moves like squats, wall push-ups, and chair sit-to-stands, or invest in inexpensive resistance bands. Even <strong>10-minute walks after meals</strong> can meaningfully lower post-meal glucose (<a href="https://www.nature.com/articles/s41598-025-07312-y" target="_blank">Sci Rep, 2025</a>; <a href="https://diabetesjournals.org/care/article/39/6/964/29532/Benefits-for-Type-2-Diabetes-of-Interrupting" target="_blank">Diabetes Care, 2016</a>).</p>
     </div>
   </div>
@@ -85,12 +78,12 @@
   <p>Managing stress, getting quality sleep, and staying socially connected can all help control blood sugar, lower blood pressure, and improve overall well-being. These approaches are simple, affordable, and can fit naturally into daily routines.</p>
   <div class="practice-grid">
     <div class="practice-card">
-      <h3>Prayer, Reflection & Quiet Breathing</h3>
+      <h3>Prayer, Reflection &amp; Quiet Breathing</h3>
       <p>Moments of stillness through prayer, reflection, or slow breathing can lower stress hormones like cortisol, which helps keep blood sugar and blood pressure in healthier ranges (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10534311/" target="_blank">Systematic review, 2023</a>). Even 5–10 minutes a day can be effective—during morning prayer, before a meal, or while resting in the evening.</p>
     </div>
     <div class="practice-card">
       <h3>Quality Sleep</h3>
-      <p>Good sleep is when the body repairs itself, balances hormones, and keeps blood sugar in check. Poor sleep can make the body less responsive to insulin and raise appetite the next day (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11368308/" target="_blank">Sleep & HbA<sub>1c</sub> review, 2024</a>). Aim for a steady bedtime, a cool and quiet sleeping space, and less screen time in the hour before bed.</p>
+      <p>Good sleep is when the body repairs itself, balances hormones, and keeps blood sugar in check. Poor sleep can make the body less responsive to insulin and raise appetite the next day (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11368308/" target="_blank">Sleep &amp; HbA<sub>1c</sub> review, 2024</a>). Aim for a steady bedtime, a cool and quiet sleeping space, and less screen time in the hour before bed.</p>
     </div>
     <div class="practice-card wide-card">
       <h3>Stay Connected</h3>
@@ -114,3 +107,4 @@
 <footer>
   © 2025 Cultural Health Connect – All Rights Reserved
 </footer>
+```
