@@ -66,7 +66,7 @@ const chcT = {
     "page-header-resources": "Resources",
     "resources-intro": "Below you'll find free, downloadable resources created by Cultural Health Connect to support healthier living in our community. All materials are available in English, Spanish, and Arabic.",
     "pamphlet-title": "Multilingual Health Pamphlet",
-    "pamphlet-desc": "Our community health pamphlet covering chronic disease prevention, culturally adapted dietary guidance, and lifestyle tips — available in English, Spanish, and Arabic.",
+    "pamphlet-desc": "Our community health pamphlet covering chronic disease prevention, culturally adapted dietary guidance, and lifestyle tips.",
     "btn-download": "⬇ Download Pamphlet (PDF)"
   },
 
