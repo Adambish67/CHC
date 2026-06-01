@@ -1,27 +1,26 @@
 ```{=html}
-<!-- PAGE HEADER -->
 <div class="page-header">
-  <h1>Support Our Mission</h1>
+  <h1 data-i18n="page-header-donate">Support Our Mission</h1>
 </div>
 
 <div class="container section" style="text-align:center;">
-  <p style="font-size:1.1rem; margin-top:1rem;">
+  <p style="font-size:1.1rem; margin-top:1rem;" data-i18n="donate-p1">
     While we're not accepting monetary donations at this time, there are still powerful ways you can support our work.
   </p>
-  <p>
+  <p data-i18n="donate-p2">
     Cultural Health Connect thrives on community energy—whether you're a local resident who wants to volunteer, a healthcare professional ready to lend your expertise, or someone across the country who shares our mission of culturally relevant care, there's a place for you here.
   </p>
-  <p style="font-weight:700; color:#103d79; font-size:1.05rem; margin-top:1.5rem;">
+  <p style="font-weight:700; color:#103d79; font-size:1.05rem; margin-top:1.5rem;" data-i18n="donate-p3">
     Join us in making health education more inclusive, compassionate, and impactful—right here in San Diego and beyond.
   </p>
   <p style="margin-top:2rem;">
-    <a href="Contact.html" class="btn">Become a Volunteer</a>
+    <a href="Contact.html" class="btn" data-i18n="btn-volunteer2">Become a Volunteer</a>
     &nbsp;
-    <a href="Contact.html" class="btn">Reach Out</a>
+    <a href="Contact.html" class="btn" data-i18n="btn-reach">Reach Out</a>
   </p>
 </div>
 
 <footer>
-  © 2025 Cultural Health Connect
+  <span data-i18n="footer-short">© 2025 Cultural Health Connect</span>
 </footer>
 ```
