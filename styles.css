@@ -309,11 +309,17 @@ a:hover { color: var(--chc-navy-dark); }
 }
 
 /* ── Cards ── */
+/* Each section is 2 cards + 1 full-width summary card, so lock to 2 columns
+   on desktop rather than auto-fit (which stranded the pair on wide screens). */
 .practice-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 1.5rem;
+}
+
+@media (max-width: 620px) {
+  .practice-grid { grid-template-columns: 1fr; }
 }
 
 .practice-card {
