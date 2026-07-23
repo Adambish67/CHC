@@ -1,6 +1,12 @@
+---
+pagetitle: "Support Us | Cultural Health Connect"
+description: "Support Cultural Health Connect's mission of culturally tailored health education in El Cajon — volunteer, partner, or spread the word."
+---
+
 ```{=html}
 <div class="page-header">
-  <h1 data-i18n="page-header-donate">Support Our Mission</h1>
+  <div class="page-h1" role="heading" aria-level="1" data-i18n="page-header-donate">Support Our Mission</div>
+  <p class="page-sub" data-i18n="donate-sub">The most powerful gifts you can give us right now are time, expertise, and community voice.</p>
 </div>
 
 <div class="container section" style="text-align:center;">
@@ -10,17 +16,49 @@
   <p data-i18n="donate-p2">
     Cultural Health Connect thrives on community energy—whether you're a local resident who wants to volunteer, a healthcare professional ready to lend your expertise, or someone across the country who shares our mission of culturally relevant care, there's a place for you here.
   </p>
-  <p style="font-weight:700; color:#103d79; font-size:1.05rem; margin-top:1.5rem;" data-i18n="donate-p3">
+
+  <div class="wwd-grid" style="text-align:center; margin-top:2rem;">
+    <div class="wwd-card chc-reveal">
+      <span class="wwd-icon" aria-hidden="true">🙋</span>
+      <h3 data-i18n="support1-title">Volunteer</h3>
+      <p data-i18n="support1-text">Help with outreach, events, translation, design, or community organizing. Every skill matters.</p>
+    </div>
+    <div class="wwd-card chc-reveal">
+      <span class="wwd-icon" aria-hidden="true">🩺</span>
+      <h3 data-i18n="support2-title">Lend Clinical Expertise</h3>
+      <p data-i18n="support2-text">Physicians, nurses, dietitians, and pharmacists: help us review materials and guide our programs.</p>
+    </div>
+    <div class="wwd-card chc-reveal">
+      <span class="wwd-icon" aria-hidden="true">🏪</span>
+      <h3 data-i18n="support3-title">Partner With Us</h3>
+      <p data-i18n="support3-text">Local businesses, clinics, mosques, churches, and community centers can distribute materials or host future workshops.</p>
+    </div>
+    <div class="wwd-card chc-reveal">
+      <span class="wwd-icon" aria-hidden="true">📣</span>
+      <h3 data-i18n="support4-title">Spread the Word</h3>
+      <p data-i18n="support4-text">Share our free resources with family, friends, and neighbors. Good information travels through trusted voices—like yours.</p>
+    </div>
+  </div>
+
+  <p style="font-weight:700; color:var(--chc-navy); font-size:1.05rem; margin-top:2rem;" data-i18n="donate-p3">
     Join us in making health education more inclusive, compassionate, and impactful—right here in San Diego and beyond.
   </p>
   <p style="margin-top:2rem;">
     <a href="Contact.html" class="btn" data-i18n="btn-volunteer2">Become a Volunteer</a>
     &nbsp;
-    <a href="Contact.html" class="btn" data-i18n="btn-reach">Reach Out</a>
+    <a href="Contact.html" class="btn btn-gold" data-i18n="btn-reach">Reach Out</a>
   </p>
 </div>
 
 <footer>
+  <div class="footer-links">
+    <a href="about.html" data-i18n="nav-about">About</a>
+    <a href="Programs.html" data-i18n="nav-programs">Programs</a>
+    <a href="Resources.html" data-i18n="nav-resources">Resources</a>
+    <a href="FAQ.html" data-i18n="nav-faq">FAQ</a>
+    <a href="Contact.html" data-i18n="nav-contact">Contact</a>
+  </div>
   <span data-i18n="footer-short">© 2025 Cultural Health Connect</span>
+  <span class="footer-disclaimer" data-i18n="footer-disclaimer">The content on this website is for general educational purposes only and is not medical advice. Always consult your doctor or another qualified health provider with questions about a medical condition.</span>
 </footer>
 ```

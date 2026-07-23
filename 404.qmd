@@ -1,0 +1,23 @@
+---
+pagetitle: "Page Not Found | Cultural Health Connect"
+---
+
+```{=html}
+<div class="page-header">
+  <div class="page-h1" role="heading" aria-level="1" data-i18n="page-header-404">Page Not Found</div>
+</div>
+
+<div class="container section" style="text-align:center;">
+  <p style="font-size:3.5rem; margin:1.5rem 0 0.5rem;" aria-hidden="true">🧭</p>
+  <p style="font-size:1.1rem;" data-i18n="notfound-text">Sorry—we couldn't find that page. It may have moved during our website updates.</p>
+  <p style="margin-top:2rem;">
+    <a href="index.html" class="btn" data-i18n="btn-gohome">Back to Home</a>
+    &nbsp;
+    <a href="Resources.html" class="btn btn-gold" data-i18n="btn-resources-hero">Free Resources</a>
+  </p>
+</div>
+
+<footer>
+  <span data-i18n="footer-short">© 2025 Cultural Health Connect</span>
+</footer>
+```

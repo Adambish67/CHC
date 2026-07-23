@@ -1,6 +1,12 @@
+---
+pagetitle: "Contact | Cultural Health Connect"
+description: "Contact Cultural Health Connect — ask a question, volunteer, or partner with us in El Cajon, California."
+---
+
 ```{=html}
 <div class="page-header">
-  <h1 data-i18n="page-header-contact">Contact Us</h1>
+  <div class="page-h1" role="heading" aria-level="1" data-i18n="page-header-contact">Contact Us</div>
+  <p class="page-sub" data-i18n="contact-sub">Questions, volunteering, partnerships—we read every message.</p>
 </div>
 
 <div class="container">
@@ -12,10 +18,37 @@
     <input type="text" id="name" name="name" placeholder="Your Name" data-i18n-placeholder="placeholder-name" required>
     <label for="email" data-i18n="label-email">Your Email</label>
     <input type="email" id="email" name="email" placeholder="Your Email" data-i18n-placeholder="placeholder-email" required>
+    <label for="topic" data-i18n="label-topic">I'm reaching out about</label>
+    <select id="topic" name="topic">
+      <option value="general" data-i18n="topic-general">General question</option>
+      <option value="volunteer" data-i18n="topic-volunteer">Volunteering</option>
+      <option value="partnership" data-i18n="topic-partnership">Business / clinic partnership</option>
+      <option value="workshops" data-i18n="topic-workshops">Workshops</option>
+      <option value="feedback" data-i18n="topic-feedback">Feedback</option>
+    </select>
     <label for="message" data-i18n="label-message">Your Message</label>
     <textarea id="message" name="message" placeholder="Your Message" data-i18n-placeholder="placeholder-message" rows="5" required></textarea>
     <button type="submit" class="btn" data-i18n="btn-send">Send Message</button>
   </form>
+
+  <div class="contact-grid chc-reveal">
+    <div class="contact-card">
+      <span class="contact-icon" aria-hidden="true">✉️</span>
+      <h3 data-i18n="contact-email-title">Email Us</h3>
+      <p><a href="mailto:help@culturalhealthconnect.org">help@culturalhealthconnect.org</a></p>
+    </div>
+    <div class="contact-card">
+      <span class="contact-icon" aria-hidden="true">📍</span>
+      <h3 data-i18n="contact-area-title">Where We Work</h3>
+      <p data-i18n="contact-area-text">El Cajon &amp; East County San Diego, California</p>
+    </div>
+    <div class="contact-card">
+      <span class="contact-icon" aria-hidden="true">🌐</span>
+      <h3 data-i18n="contact-lang-title">Languages</h3>
+      <p data-i18n="contact-lang-text">English · Español · العربية</p>
+    </div>
+  </div>
+
   <p style="margin-top:1.5rem; color:#555;" data-i18n="contact-alt">
     If you experience any issues with the form, please email us directly at
     <a href="mailto:help@culturalhealthconnect.org">help@culturalhealthconnect.org</a>.
@@ -23,6 +56,14 @@
 </div>
 
 <footer>
+  <div class="footer-links">
+    <a href="about.html" data-i18n="nav-about">About</a>
+    <a href="Programs.html" data-i18n="nav-programs">Programs</a>
+    <a href="Resources.html" data-i18n="nav-resources">Resources</a>
+    <a href="FAQ.html" data-i18n="nav-faq">FAQ</a>
+    <a href="Contact.html" data-i18n="nav-contact">Contact</a>
+  </div>
   <span data-i18n="footer-short">© 2025 Cultural Health Connect</span>
+  <span class="footer-disclaimer" data-i18n="footer-disclaimer">The content on this website is for general educational purposes only and is not medical advice. Always consult your doctor or another qualified health provider with questions about a medical condition.</span>
 </footer>
 ```

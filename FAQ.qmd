@@ -1,0 +1,77 @@
+---
+pagetitle: "FAQ | Cultural Health Connect"
+description: "Frequently asked questions about Cultural Health Connect — who we are, who we serve, and how to get involved."
+---
+
+```{=html}
+<div class="page-header">
+  <div class="page-h1" role="heading" aria-level="1" data-i18n="page-header-faq">Frequently Asked Questions</div>
+  <p class="page-sub" data-i18n="faq-sub">Quick answers about who we are, what we do, and how you can be part of it.</p>
+</div>
+
+<div class="container section">
+  <div class="faq-list">
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq1-q">What is Cultural Health Connect?</summary>
+      <div class="faq-body" data-i18n="faq1-a"><p>Cultural Health Connect (CHC) is a community nonprofit based in El Cajon, California. We provide free, evidence-based health education on preventing and managing chronic diseases—like type 2 diabetes and high blood pressure—tailored to the cultures, languages, and foods of the Middle Eastern and Mexican communities of East County San Diego.</p></div>
+    </details>
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq2-q">Who can use your resources?</summary>
+      <div class="faq-body" data-i18n="faq2-a"><p>Anyone! While our materials are designed with the Middle Eastern and Mexican communities of El Cajon in mind, the guidance is grounded in research that applies broadly. All of our materials are free and available in English, Spanish, and Arabic.</p></div>
+    </details>
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq3-q">Do you give medical advice?</summary>
+      <div class="faq-body" data-i18n="faq3-a"><p>No. We share general health education based on published research and guidance from trusted organizations like the CDC and the American Heart Association. We do not diagnose, treat, or prescribe, and our content is never a substitute for advice from your doctor. Always talk with a qualified health provider before making changes to your medications or treatment plan.</p></div>
+    </details>
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq4-q">What does "moderation over elimination" mean?</summary>
+      <div class="faq-body" data-i18n="faq4-a"><p>It's the heart of our philosophy. Instead of telling people to give up cherished foods like biryani, kabsa, tamales, or pan dulce, we help families enjoy them in healthier ways—through smaller portions, fiber-rich sides, smart ingredient swaps, and movement after meals. Sustainable habits beat strict rules that no one can keep.</p></div>
+    </details>
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq5-q">How does the Health Assistant on this website work?</summary>
+      <div class="faq-body" data-i18n="faq5-a"><p>The Health Assistant is a free chat tool that answers common questions about healthy eating, physical activity, sleep, and stress management in English, Spanish, and Arabic. Its answers come from the same evidence-based educational content we publish. It provides general education only—it is not a medical professional, it doesn't know your personal health situation, and it should never replace a conversation with your doctor.</p></div>
+    </details>
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq6-q">How can I volunteer or partner with you?</summary>
+      <div class="faq-body" data-i18n="faq6-a"><p>We'd love your help! We welcome volunteers of all backgrounds—healthcare professionals, translators, designers, community organizers, and neighbors who simply care. Local businesses, clinics, and community centers can also partner with us to distribute materials or host future workshops. Send us a message on our <a href="Contact.html">Contact page</a> and we'll get back to you.</p></div>
+    </details>
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq7-q">Do you accept donations?</summary>
+      <div class="faq-body" data-i18n="faq7-a"><p>We are not accepting monetary donations at this time. The most valuable things you can give us right now are your time, your expertise, and your voice in the community. Visit our <a href="Donate.html">Support page</a> to learn how to help.</p></div>
+    </details>
+
+    <details class="faq-item chc-reveal">
+      <summary data-i18n="faq8-q">Are your materials really free?</summary>
+      <div class="faq-body" data-i18n="faq8-a"><p>Yes—everything we publish is completely free. You can download our multilingual health pamphlet from the <a href="Resources.html">Resources page</a>, share it, print it, and distribute it in your community.</p></div>
+    </details>
+
+  </div>
+</div>
+
+<div class="cta-strip chc-reveal">
+  <h2 data-i18n="faq-cta-heading">Still Have Questions?</h2>
+  <p data-i18n="faq-cta-text">We're happy to help. Reach out and a member of our team will get back to you.</p>
+  <p style="margin-top:1.5rem;">
+    <a href="Contact.html" class="btn" data-i18n="btn-reach">Reach Out</a>
+  </p>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="about.html" data-i18n="nav-about">About</a>
+    <a href="Programs.html" data-i18n="nav-programs">Programs</a>
+    <a href="Resources.html" data-i18n="nav-resources">Resources</a>
+    <a href="FAQ.html" data-i18n="nav-faq">FAQ</a>
+    <a href="Contact.html" data-i18n="nav-contact">Contact</a>
+  </div>
+  <span data-i18n="footer-short">© 2025 Cultural Health Connect</span>
+  <span class="footer-disclaimer" data-i18n="footer-disclaimer">The content on this website is for general educational purposes only and is not medical advice. Always consult your doctor or another qualified health provider with questions about a medical condition.</span>
+</footer>
+```

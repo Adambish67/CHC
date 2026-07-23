@@ -1,9 +1,17 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
+    - robots.txt
+    - "MultiLingual Cultural Health Connect.pdf"
+    - translations.js
+    - i18n.js
+    - assistant.js
 
 website:
   title: "Cultural Health Connect"
+  site-url: https://culturalhealthconnect.org
   description: "Empowering healthier lives in East County San Diego through culturally tailored health education for Middle Eastern and Mexican communities."
   favicon: Images/CHChug.png
   open-graph:
@@ -23,12 +31,14 @@ website:
         href: index.html
       - text: "About"
         href: about.html
-      #- text: "Programs"
-        #href: Programs.html
-      - text: "Contact"
-        href: Contact.html
+      - text: "Programs"
+        href: Programs.html
       - text: "Resources"
         href: Resources.html
+      - text: "FAQ"
+        href: FAQ.html
+      - text: "Contact"
+        href: Contact.html
       - text: "Donate"
         href: Donate.html
 
@@ -37,5 +47,28 @@ format:
     theme: default
     css: styles.css
     toc: false
+    include-in-header:
+      text: |
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "NonprofitOrganization",
+          "name": "Cultural Health Connect",
+          "url": "https://culturalhealthconnect.org",
+          "logo": "https://culturalhealthconnect.org/Images/CHClogo.png",
+          "email": "help@culturalhealthconnect.org",
+          "description": "Free, evidence-based health education on chronic disease prevention, tailored to the Middle Eastern and Mexican communities of El Cajon, California, in English, Spanish, and Arabic.",
+          "areaServed": {
+            "@type": "Place",
+            "name": "El Cajon, East County San Diego, California"
+          },
+          "knowsLanguage": ["en", "es", "ar"],
+          "founder": [
+            { "@type": "Person", "name": "Adam Bisharat" },
+            { "@type": "Person", "name": "Alex Ottersbach" },
+            { "@type": "Person", "name": "Isaac Cesena" }
+          ]
+        }
+        </script>
     include-after-body:
-      text: "<script src='translations.js'></script><script src='i18n.js'></script>"
+      text: "<script src='translations.js'></script><script src='i18n.js'></script><script src='assistant.js'></script>"

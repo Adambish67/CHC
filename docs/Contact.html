@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Contact Cultural Health Connect — ask a question, volunteer, or partner with us in El Cajon, California.">
 
-<title>contact – Cultural Health Connect</title>
+<title>Contact | Cultural Health Connect – Cultural Health Connect</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -40,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-cd14fc3feb488be42e16daada83dff9b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -71,16 +72,41 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NonprofitOrganization",
+  "name": "Cultural Health Connect",
+  "url": "https://culturalhealthconnect.org",
+  "logo": "https://culturalhealthconnect.org/Images/CHClogo.png",
+  "email": "help@culturalhealthconnect.org",
+  "description": "Free, evidence-based health education on chronic disease prevention, tailored to the Middle Eastern and Mexican communities of El Cajon, California, in English, Spanish, and Arabic.",
+  "areaServed": {
+    "@type": "Place",
+    "name": "El Cajon, East County San Diego, California"
+  },
+  "knowsLanguage": ["en", "es", "ar"],
+  "founder": [
+    { "@type": "Person", "name": "Adam Bisharat" },
+    { "@type": "Person", "name": "Alex Ottersbach" },
+    { "@type": "Person", "name": "Isaac Cesena" }
+  ]
+}
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Cultural Health Connect">
 <meta property="og:description" content="Empowering healthier lives in East County San Diego through culturally tailored health education for Middle Eastern and Mexican communities.">
-<meta property="og:image" content="Images/CHClogo.png">
+<meta property="og:image" content="https://culturalhealthconnect.org/Images/CHClogo.png">
 <meta property="og:site_name" content="Cultural Health Connect">
+<meta property="og:image:height" content="354">
+<meta property="og:image:width" content="836">
 <meta name="twitter:title" content="Cultural Health Connect">
 <meta name="twitter:description" content="Empowering healthier lives in East County San Diego through culturally tailored health education.">
-<meta name="twitter:image" content="Images/CHClogo.png">
+<meta name="twitter:image" content="https://culturalhealthconnect.org/Images/CHClogo.png">
+<meta name="twitter:image-height" content="354">
+<meta name="twitter:image-width" content="836">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -114,12 +140,20 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Contact.html" aria-current="page"> 
-<span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="./Programs.html"> 
+<span class="menu-text">Programs</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Resources.html"> 
 <span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./FAQ.html"> 
+<span class="menu-text">FAQ</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./Contact.html" aria-current="page"> 
+<span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Donate.html"> 
@@ -138,13 +172,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 data-i18n="page-header-contact" class="title display-7">Contact Us</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
 <div class="page-header">
-  
+  <div class="page-h1" role="heading" aria-level="1" data-i18n="page-header-contact">Contact Us</div>
+  <p class="page-sub" data-i18n="contact-sub">Questions, volunteering, partnerships—we read every message.</p>
 </div>
 
 <div class="container">
@@ -156,10 +191,37 @@ ul.task-list li input[type="checkbox"] {
     <input type="text" id="name" name="name" placeholder="Your Name" data-i18n-placeholder="placeholder-name" required="">
     <label for="email" data-i18n="label-email">Your Email</label>
     <input type="email" id="email" name="email" placeholder="Your Email" data-i18n-placeholder="placeholder-email" required="">
+    <label for="topic" data-i18n="label-topic">I'm reaching out about</label>
+    <select id="topic" name="topic">
+      <option value="general" data-i18n="topic-general">General question</option>
+      <option value="volunteer" data-i18n="topic-volunteer">Volunteering</option>
+      <option value="partnership" data-i18n="topic-partnership">Business / clinic partnership</option>
+      <option value="workshops" data-i18n="topic-workshops">Workshops</option>
+      <option value="feedback" data-i18n="topic-feedback">Feedback</option>
+    </select>
     <label for="message" data-i18n="label-message">Your Message</label>
     <textarea id="message" name="message" placeholder="Your Message" data-i18n-placeholder="placeholder-message" rows="5" required=""></textarea>
     <button type="submit" class="btn" data-i18n="btn-send">Send Message</button>
   </form>
+
+  <div class="contact-grid chc-reveal">
+    <div class="contact-card">
+      <span class="contact-icon" aria-hidden="true">✉️</span>
+      <h3 data-i18n="contact-email-title" class="anchored">Email Us</h3>
+      <p><a href="mailto:help@culturalhealthconnect.org">help@culturalhealthconnect.org</a></p>
+    </div>
+    <div class="contact-card">
+      <span class="contact-icon" aria-hidden="true">📍</span>
+      <h3 data-i18n="contact-area-title" class="anchored">Where We Work</h3>
+      <p data-i18n="contact-area-text">El Cajon &amp; East County San Diego, California</p>
+    </div>
+    <div class="contact-card">
+      <span class="contact-icon" aria-hidden="true">🌐</span>
+      <h3 data-i18n="contact-lang-title" class="anchored">Languages</h3>
+      <p data-i18n="contact-lang-text">English · Español · العربية</p>
+    </div>
+  </div>
+
   <p style="margin-top:1.5rem; color:#555;" data-i18n="contact-alt">
     If you experience any issues with the form, please email us directly at
     <a href="mailto:help@culturalhealthconnect.org">help@culturalhealthconnect.org</a>.
@@ -167,7 +229,15 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <footer>
+  <div class="footer-links">
+    <a href="about.html" data-i18n="nav-about">About</a>
+    <a href="Programs.html" data-i18n="nav-programs">Programs</a>
+    <a href="Resources.html" data-i18n="nav-resources">Resources</a>
+    <a href="FAQ.html" data-i18n="nav-faq">FAQ</a>
+    <a href="Contact.html" data-i18n="nav-contact">Contact</a>
+  </div>
   <span data-i18n="footer-short">© 2025 Cultural Health Connect</span>
+  <span class="footer-disclaimer" data-i18n="footer-disclaimer">The content on this website is for general educational purposes only and is not medical advice. Always consult your doctor or another qualified health provider with questions about a medical condition.</span>
 </footer>
 
 
@@ -246,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/culturalhealthconnect\.org");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -574,7 +644,7 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<script src="translations.js"></script><script src="i18n.js"></script>
+<script src="translations.js"></script><script src="i18n.js"></script><script src="assistant.js"></script>
 
 
 

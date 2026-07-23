@@ -26,17 +26,25 @@
       if (t[key] !== undefined) el.placeholder = t[key];
     });
 
-    // Translate nav items by href
+    // Translate nav items by the file name at the end of the href
+    // (hrefs may be relative or absolute depending on Quarto's site-url)
     const navMap = {
-      "./index.html":     "nav-home",
-      "./about.html":     "nav-about",
-      "./Contact.html":   "nav-contact",
-      "./Resources.html": "nav-resources",
-      "./Donate.html":    "nav-donate"
+      "index.html":     "nav-home",
+      "about.html":     "nav-about",
+      "programs.html":  "nav-programs",
+      "contact.html":   "nav-contact",
+      "resources.html": "nav-resources",
+      "faq.html":       "nav-faq",
+      "donate.html":    "nav-donate"
     };
-    Object.entries(navMap).forEach(([href, key]) => {
-      const el = document.querySelector(`.navbar a[href="${href}"] .menu-text`);
-      if (el && t[key]) el.textContent = t[key];
+    document.querySelectorAll(".navbar a.nav-link").forEach(a => {
+      const label = a.querySelector(".menu-text");
+      if (!label) return;
+      let file = (a.getAttribute("href") || "").split("#")[0].split("?")[0];
+      file = file.split("/").pop().toLowerCase();
+      if (file === "" || file === ".") file = "index.html";
+      const key = navMap[file];
+      if (key && t[key]) label.textContent = t[key];
     });
 
     // Update dropdown button label
@@ -44,6 +52,9 @@
     if (btn) btn.textContent = LANGS[lang].label + " ▾";
 
     localStorage.setItem("chc-lang", lang);
+
+    // Notify widgets (e.g. the Health Assistant) that language changed
+    window.dispatchEvent(new CustomEvent("chc-lang-changed", { detail: lang }));
   }
 
   function injectDropdown() {
@@ -84,9 +95,28 @@
     });
   }
 
+  // Fade-in sections as they scroll into view
+  function initReveal() {
+    const els = document.querySelectorAll(".chc-reveal");
+    if (!("IntersectionObserver" in window)) {
+      els.forEach(el => el.classList.add("chc-in"));
+      return;
+    }
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("chc-in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    els.forEach(el => io.observe(el));
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     injectDropdown();
     const saved = localStorage.getItem("chc-lang") || "en";
     applyLanguage(saved);
+    initReveal();
   });
 })();
