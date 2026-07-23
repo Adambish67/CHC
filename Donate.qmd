@@ -19,22 +19,22 @@ description: "Support Cultural Health Connect's mission of culturally tailored h
 
   <div class="wwd-grid" style="text-align:center; margin-top:2rem;">
     <div class="wwd-card chc-reveal">
-      <span class="wwd-icon" aria-hidden="true">🙋</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-person-plus-fill"></i></span>
       <h3 data-i18n="support1-title">Volunteer</h3>
       <p data-i18n="support1-text">Help with outreach, events, translation, design, or community organizing. Every skill matters.</p>
     </div>
     <div class="wwd-card chc-reveal">
-      <span class="wwd-icon" aria-hidden="true">🩺</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-heart-pulse"></i></span>
       <h3 data-i18n="support2-title">Lend Clinical Expertise</h3>
       <p data-i18n="support2-text">Physicians, nurses, dietitians, and pharmacists: help us review materials and guide our programs.</p>
     </div>
     <div class="wwd-card chc-reveal">
-      <span class="wwd-icon" aria-hidden="true">🏪</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-shop-window"></i></span>
       <h3 data-i18n="support3-title">Partner With Us</h3>
       <p data-i18n="support3-text">Local businesses, clinics, mosques, churches, and community centers can distribute materials or host future workshops.</p>
     </div>
     <div class="wwd-card chc-reveal">
-      <span class="wwd-icon" aria-hidden="true">📣</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-megaphone-fill"></i></span>
       <h3 data-i18n="support4-title">Spread the Word</h3>
       <p data-i18n="support4-text">Share our free resources with family, friends, and neighbors. Good information travels through trusted voices—like yours.</p>
     </div>

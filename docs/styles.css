@@ -28,6 +28,9 @@
 
 html { scroll-behavior: smooth; }
 
+/* full-bleed bands use 100vw, which can overhang by the scrollbar width */
+body { overflow-x: hidden; }
+
 body {
   font-family: var(--chc-font-body);
   margin: 0;
@@ -35,6 +38,25 @@ body {
   background: var(--chc-cream);
   color: var(--chc-ink);
   line-height: 1.7;
+}
+
+/* Remove Quarto's content-column side padding so sections control their own width */
+#quarto-document-content,
+main.content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Bands that should span the entire viewport, escaping any parent column */
+.hero,
+.mission-banner,
+.page-header,
+.cta-strip,
+.notice-banner,
+footer {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 
 h1, h2, h3 {
@@ -52,15 +74,15 @@ a:hover { color: var(--chc-navy-dark); }
 
 /* ── Layout ── */
 .container {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2rem 2rem;
 }
 
 .container-wide {
-  max-width: 1120px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2rem 2.5rem;
 }
 
 .section {
@@ -210,18 +232,27 @@ a:hover { color: var(--chc-navy-dark); }
 }
 
 .mission-banner p {
-  max-width: 780px;
+  max-width: 900px;
   margin: 0 auto;
   font-size: 1.08rem;
   line-height: 1.85;
 }
 
 /* ── What we do strip ── */
+/* Explicit column counts so a 4-card set never strands an orphan (3+1) */
 .wwd-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1.4rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.6rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 1080px) {
+  .wwd-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 620px) {
+  .wwd-grid { grid-template-columns: 1fr; }
 }
 
 .wwd-card {
@@ -280,7 +311,7 @@ a:hover { color: var(--chc-navy-dark); }
 /* ── Cards ── */
 .practice-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -359,9 +390,17 @@ a:hover { color: var(--chc-navy-dark); }
 /* ── Values grid ── */
 .values-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.4rem;
   margin-top: 1.5rem;
+}
+
+@media (max-width: 1080px) {
+  .values-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 620px) {
+  .values-grid { grid-template-columns: 1fr; }
 }
 
 .value-card {
@@ -605,11 +644,20 @@ form textarea:focus {
 }
 
 /* ── External resource link grid ── */
+/* 8 cards: 4×2 on desktop, 2×4 on tablet — always balanced */
 .reslink-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.3rem;
   margin-top: 1.5rem;
+}
+
+@media (max-width: 1080px) {
+  .reslink-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 620px) {
+  .reslink-grid { grid-template-columns: 1fr; }
 }
 
 .reslink-card {
@@ -835,6 +883,10 @@ img {
   z-index: 99991;
   width: min(390px, calc(100vw - 32px));
   height: min(560px, calc(100vh - 130px));
+  min-width: 300px;
+  min-height: 380px;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 110px);
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 18px 60px rgba(8,31,63,0.35);
@@ -845,6 +897,50 @@ img {
 }
 
 .chc-chat-panel.open { display: flex; }
+
+/* Maximized mode (toggled by the expand button) */
+.chc-chat-panel.chc-chat-max {
+  width: min(760px, calc(100vw - 32px)) !important;
+  height: calc(100vh - 120px) !important;
+}
+
+/* Drag handle for resizing — top-left corner (panel is anchored bottom-right) */
+.chc-chat-resizer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  cursor: nw-resize;
+  z-index: 5;
+  touch-action: none;
+  background:
+    repeating-linear-gradient(135deg,
+      transparent 0 5px,
+      rgba(255,255,255,0.55) 5px 7px)
+    no-repeat;
+  background-size: 18px 18px;
+  background-position: 3px 3px;
+  border-top-left-radius: 18px;
+  opacity: 0.7;
+}
+
+.chc-chat-resizer:hover { opacity: 1; }
+
+.chc-chat-expand {
+  background: rgba(255,255,255,0.14);
+  border: none;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  margin-right: 6px;
+}
+
+.chc-chat-expand:hover { background: rgba(255,255,255,0.3); }
 
 .chc-chat-head {
   background: linear-gradient(135deg, var(--chc-navy-deep), var(--chc-navy));
@@ -1078,6 +1174,26 @@ body.rtl .chc-chat-fab {
 body.rtl .chc-chat-panel {
   right: auto;
   left: 22px;
+}
+
+body.rtl .chc-chat-resizer {
+  left: auto;
+  right: 0;
+  cursor: ne-resize;
+  border-top-left-radius: 0;
+  border-top-right-radius: 18px;
+  background:
+    repeating-linear-gradient(45deg,
+      transparent 0 5px,
+      rgba(255,255,255,0.55) 5px 7px)
+    no-repeat;
+  background-size: 18px 18px;
+  background-position: calc(100% - 3px) 3px;
+}
+
+body.rtl .chc-chat-expand {
+  margin-right: 0;
+  margin-left: 6px;
 }
 
 body.rtl .chc-msg-bot {

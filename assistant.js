@@ -287,11 +287,59 @@
     setTimeout(function () { input.focus(); }, 200);
   }
 
+  // Drag-to-resize from the panel's free corner (top-left in LTR, top-right
+  // in RTL, since the panel is anchored to the opposite bottom corner).
+  function initResize(handle) {
+    var startX, startY, startW, startH;
+
+    function onMove(e) {
+      var rtl = document.body.classList.contains("rtl");
+      var dw = rtl ? (e.clientX - startX) : (startX - e.clientX);
+      var dh = startY - e.clientY;
+      var w = Math.min(Math.max(startW + dw, 300), window.innerWidth - 32);
+      var h = Math.min(Math.max(startH + dh, 380), window.innerHeight - 110);
+      panel.style.width = w + "px";
+      panel.style.height = h + "px";
+    }
+
+    function onUp() {
+      document.removeEventListener("pointermove", onMove);
+      document.removeEventListener("pointerup", onUp);
+      try {
+        localStorage.setItem("chc-chat-size", panel.offsetWidth + "x" + panel.offsetHeight);
+      } catch (err) { /* storage unavailable — size just won't persist */ }
+    }
+
+    handle.addEventListener("pointerdown", function (e) {
+      e.preventDefault();
+      panel.classList.remove("chc-chat-max"); // manual resize exits maximized mode
+      startX = e.clientX;
+      startY = e.clientY;
+      startW = panel.offsetWidth;
+      startH = panel.offsetHeight;
+      document.addEventListener("pointermove", onMove);
+      document.addEventListener("pointerup", onUp);
+    });
+  }
+
+  function restoreSize() {
+    try {
+      var saved = localStorage.getItem("chc-chat-size");
+      if (!saved) return;
+      var parts = saved.split("x");
+      var w = parseInt(parts[0], 10), h = parseInt(parts[1], 10);
+      if (w >= 300 && h >= 380) {
+        panel.style.width = Math.min(w, window.innerWidth - 32) + "px";
+        panel.style.height = Math.min(h, window.innerHeight - 110) + "px";
+      }
+    } catch (err) { /* ignore */ }
+  }
+
   function build() {
     var fab = document.createElement("button");
     fab.className = "chc-chat-fab";
     fab.setAttribute("aria-label", "Open health assistant chat");
-    fab.innerHTML = '<span class="fab-dot" aria-hidden="true"></span>💬 <span class="chc-fab-label"></span>';
+    fab.innerHTML = '<span class="fab-dot" aria-hidden="true"></span><i class="bi bi-chat-dots-fill" aria-hidden="true"></i> <span class="chc-fab-label"></span>';
     document.body.appendChild(fab);
     fabLabel = fab.querySelector(".chc-fab-label");
 
@@ -300,10 +348,14 @@
     panel.setAttribute("role", "dialog");
     panel.setAttribute("aria-label", "CHC Health Assistant");
     panel.innerHTML =
+      '<div class="chc-chat-resizer" aria-hidden="true" title="Drag to resize"></div>' +
       '<div class="chc-chat-head">' +
         '<div class="chc-chat-head-row">' +
-          '<span class="chc-chat-title">🩺 <span class="chc-title-text"></span></span>' +
-          '<button class="chc-chat-close" aria-label="Close chat">✕</button>' +
+          '<span class="chc-chat-title"><i class="bi bi-heart-pulse" aria-hidden="true"></i> <span class="chc-title-text"></span></span>' +
+          '<span>' +
+            '<button class="chc-chat-expand" aria-label="Expand chat"><i class="bi bi-arrows-angle-expand" aria-hidden="true"></i></button>' +
+            '<button class="chc-chat-close" aria-label="Close chat">✕</button>' +
+          '</span>' +
         '</div>' +
         '<div class="chc-chat-disclaimer"></div>' +
       '</div>' +
@@ -328,6 +380,15 @@
     panel.querySelector(".chc-chat-close").addEventListener("click", function () {
       panel.classList.remove("open");
     });
+    panel.querySelector(".chc-chat-expand").addEventListener("click", function () {
+      var max = panel.classList.toggle("chc-chat-max");
+      this.innerHTML = max
+        ? '<i class="bi bi-arrows-angle-contract" aria-hidden="true"></i>'
+        : '<i class="bi bi-arrows-angle-expand" aria-hidden="true"></i>';
+      this.setAttribute("aria-label", max ? "Restore chat size" : "Expand chat");
+    });
+    initResize(panel.querySelector(".chc-chat-resizer"));
+    restoreSize();
     panel.querySelector(".chc-chat-inputrow").addEventListener("submit", function (e) {
       e.preventDefault();
       var v = input.value;

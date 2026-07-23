@@ -47,6 +47,12 @@ format:
     theme: default
     css: styles.css
     toc: false
+    page-layout: full
+    grid:
+      body-width: 1800px
+      margin-width: 0px
+      sidebar-width: 0px
+      gutter-width: 1.5rem
     include-in-header:
       text: |
         <script type="application/ld+json">

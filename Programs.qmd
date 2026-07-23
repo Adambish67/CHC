@@ -15,7 +15,7 @@ description: "Community health education programs from Cultural Health Connect: 
   </p>
 
   <div class="program-card chc-reveal">
-    <span class="program-icon" aria-hidden="true">📄</span>
+    <span class="program-icon" aria-hidden="true"><i class="bi bi-file-earmark-text"></i></span>
     <div>
       <h3 data-i18n="prog1-title">Multilingual Health Education Materials</h3>
       <p data-i18n="prog1-text">We create free pamphlets and guides covering chronic disease prevention, culturally adapted nutrition, and lifestyle habits—written in plain language and published in English, Spanish, and Arabic. Our materials are distributed through local businesses, clinics, and community centers in El Cajon, and are always available to download on our <a href="Resources.html">Resources page</a>.</p>
@@ -23,7 +23,7 @@ description: "Community health education programs from Cultural Health Connect: 
   </div>
 
   <div class="program-card chc-reveal">
-    <span class="program-icon" aria-hidden="true">🗳️</span>
+    <span class="program-icon" aria-hidden="true"><i class="bi bi-clipboard-data"></i></span>
     <div>
       <h3 data-i18n="prog2-title">Community Listening and Polling</h3>
       <p data-i18n="prog2-text">Before we give advice, we listen. Through community polling and conversations with residents, we learn which health questions matter most to Middle Eastern and Mexican families in East County—and shape our materials and programs around real needs, not assumptions.</p>
@@ -31,7 +31,7 @@ description: "Community health education programs from Cultural Health Connect: 
   </div>
 
   <div class="program-card chc-reveal">
-    <span class="program-icon" aria-hidden="true">🏪</span>
+    <span class="program-icon" aria-hidden="true"><i class="bi bi-shop"></i></span>
     <div>
       <h3 data-i18n="prog3-title">Local Business and Clinic Partnerships</h3>
       <p data-i18n="prog3-text">We partner with small businesses, markets, restaurants, and clinics in El Cajon to put trusted health information where people already are. Local physicians review our guidance so that what we share is both culturally familiar and clinically sound. If you run a local business or practice and want to partner with us, <a href="Contact.html">reach out</a>.</p>
@@ -39,7 +39,7 @@ description: "Community health education programs from Cultural Health Connect: 
   </div>
 
   <div class="program-card chc-reveal">
-    <span class="program-icon" aria-hidden="true">🧑‍🏫</span>
+    <span class="program-icon" aria-hidden="true"><i class="bi bi-easel"></i></span>
     <div>
       <h3><span data-i18n="prog4-title">Community Health Workshops</span> <span class="badge-soon" data-i18n="badge-soon">In Development</span></h3>
       <p data-i18n="prog4-text">We're building free, in-person workshops on managing diabetes and blood pressure through food, movement, and stress management—taught in English, Spanish, and Arabic. Want to be notified when workshops launch, or host one at your community center, mosque, church, or business? <a href="Contact.html">Let us know</a>.</p>
@@ -47,7 +47,7 @@ description: "Community health education programs from Cultural Health Connect: 
   </div>
 
   <div class="program-card chc-reveal">
-    <span class="program-icon" aria-hidden="true">💬</span>
+    <span class="program-icon" aria-hidden="true"><i class="bi bi-chat-dots"></i></span>
     <div>
       <h3 data-i18n="prog5-title">Online Health Assistant</h3>
       <p data-i18n="prog5-text">Our website features a free multilingual Health Assistant that answers common questions about healthy eating, physical activity, sleep, and stress—available any time in English, Spanish, and Arabic. It provides general education only, not medical advice. Try it using the chat button in the corner of this page.</p>

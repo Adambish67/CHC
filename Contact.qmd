@@ -33,17 +33,17 @@ description: "Contact Cultural Health Connect — ask a question, volunteer, or 
 
   <div class="contact-grid chc-reveal">
     <div class="contact-card">
-      <span class="contact-icon" aria-hidden="true">✉️</span>
+      <span class="contact-icon" aria-hidden="true"><i class="bi bi-envelope-fill"></i></span>
       <h3 data-i18n="contact-email-title">Email Us</h3>
       <p><a href="mailto:help@culturalhealthconnect.org">help@culturalhealthconnect.org</a></p>
     </div>
     <div class="contact-card">
-      <span class="contact-icon" aria-hidden="true">📍</span>
+      <span class="contact-icon" aria-hidden="true"><i class="bi bi-geo-alt-fill"></i></span>
       <h3 data-i18n="contact-area-title">Where We Work</h3>
       <p data-i18n="contact-area-text">El Cajon &amp; East County San Diego, California</p>
     </div>
     <div class="contact-card">
-      <span class="contact-icon" aria-hidden="true">🌐</span>
+      <span class="contact-icon" aria-hidden="true"><i class="bi bi-globe2"></i></span>
       <h3 data-i18n="contact-lang-title">Languages</h3>
       <p data-i18n="contact-lang-text">English · Español · العربية</p>
     </div>

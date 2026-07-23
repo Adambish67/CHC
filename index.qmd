@@ -27,22 +27,22 @@ description: "Free, evidence-based health education tailored to the Middle Easte
   <h2 class="section-heading" data-i18n="wwd-heading">Health Education That Meets You Where You Are</h2>
   <div class="wwd-grid">
     <div class="wwd-card">
-      <span class="wwd-icon" aria-hidden="true">🌍</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-translate"></i></span>
       <h3 data-i18n="wwd1-title">Multilingual Materials</h3>
       <p data-i18n="wwd1-text">Every resource we create is available in English, Spanish, and Arabic—so language is never a barrier to good health.</p>
     </div>
     <div class="wwd-card">
-      <span class="wwd-icon" aria-hidden="true">🥗</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-basket2"></i></span>
       <h3 data-i18n="wwd2-title">Culturally Adapted Guidance</h3>
       <p data-i18n="wwd2-text">We adapt beloved traditional dishes instead of banning them—moderation over elimination, always.</p>
     </div>
     <div class="wwd-card">
-      <span class="wwd-icon" aria-hidden="true">🔬</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-journal-medical"></i></span>
       <h3 data-i18n="wwd3-title">Evidence-Based Advice</h3>
       <p data-i18n="wwd3-text">Everything we share is grounded in peer-reviewed research and reviewed against guidance from trusted health organizations.</p>
     </div>
     <div class="wwd-card">
-      <span class="wwd-icon" aria-hidden="true">🤝</span>
+      <span class="wwd-icon" aria-hidden="true"><i class="bi bi-people-fill"></i></span>
       <h3 data-i18n="wwd4-title">Community Partnerships</h3>
       <p data-i18n="wwd4-text">We work with local physicians, small businesses, and community members in El Cajon to make health advice feel familiar and trusted.</p>
     </div>
