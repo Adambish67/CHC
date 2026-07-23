@@ -250,6 +250,9 @@
 
   function ask(text) {
     if (!text.trim()) return;
+    // Collapse the suggestion chips once the visitor starts a conversation,
+    // so the message history has room to scroll.
+    if (chipsEl) chipsEl.classList.add("chc-chips-hidden");
     addMsg(text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"), "user");
     botReply(findAnswer(text));
   }
